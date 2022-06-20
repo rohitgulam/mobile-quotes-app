@@ -365,14 +365,20 @@ const styles = StyleSheet.create({
     fontFamily: 'American Typewriter',
     borderRadius: 2,
     borderWidth: 1,
-    paddingVertical: 20,
+    paddingVertical: 90,
     paddingHorizontal: 16,
-    lineHeight: 34
+    lineHeight: 34,
+    height: 300,
+    width: 320,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
     // marginTop: 170
   },
   button: {
     backgroundColor: '#4353FF',
     padding: 20,
+    paddingHorizontal: 40,
     borderRadius: 5,
     // marginTop: 100
   },
