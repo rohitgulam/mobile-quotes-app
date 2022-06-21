@@ -377,8 +377,6 @@ const styles = StyleSheet.create({
     // marginHorizontal: 15,
     fontFamily: 'American Typewriter',
     lineHeight: 34,
-    // height: 300,
-    // width: 320,
     // marginTop: 170
   },
   button: {
