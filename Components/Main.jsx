@@ -14,7 +14,7 @@ const Main = () => {
     },
     {
       id: 1,
-      quote: "One should love you, the way you are ... if someone tries to change you in love, then its not love but a compromise ... and darling, one doesn't compromise in love"  
+      quote: "One should love you, the way you are ... if someone tries to change you in love, then its not love but a compromise ... and one doesn't compromise in love"  
     },
     {
         id: 3,
@@ -94,7 +94,7 @@ const Main = () => {
     },
     {
       id: 1,
-      quote: "One should love you, the way you are ... if someone tries to change you in love, then its not love but a compromise ... and darling, one doesn't compromise in love"  
+      quote: "One should love you, the way you are ... if someone tries to change you in love, then its not love but a compromise ... and one doesn't compromise in love"  
     },
     {
         id: 3,
@@ -174,7 +174,7 @@ const Main = () => {
     },
     {
       id: 1,
-      quote: "One should love you, the way you are ... if someone tries to change you in love, then its not love but a compromise ... and darling, one doesn't compromise in love"  
+      quote: "One should love you, the way you are ... if someone tries to change you in love, then its not love but a compromise ... and one doesn't compromise in love"  
     },
     {
         id: 3,
@@ -254,7 +254,7 @@ const Main = () => {
     },
     {
       id: 1,
-      quote: "One should love you, the way you are ... if someone tries to change you in love, then its not love but a compromise ... and darling, one doesn't compromise in love"  
+      quote: "One should love you, the way you are ... if someone tries to change you in love, then its not love but a compromise ... and one doesn't compromise in love"  
     },
     {
         id: 3,
