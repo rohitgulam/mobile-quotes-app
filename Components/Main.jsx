@@ -335,7 +335,9 @@ const Main = () => {
   return (
     <View style={styles.container} >
       {/* <Image source={logo} style={styles.logo} /> */}
-      <Text style={styles.quote}>{quotes[num]['quote']}</Text>
+      <View style={styles.quoteContainer}> 
+        <Text style={styles.quote}>{quotes[num]['quote']}</Text>
+      </View>
 
       <TouchableOpcaity style={styles.button} onPress={() => {num == quotes.length ? setNum(0) : setNum(num + 1) }}>
         <Text style={styles.buttonText}>Next</Text>
@@ -358,21 +360,25 @@ const styles = StyleSheet.create({
     height:195,
     marginBottom: 10
   },
+  quoteContainer:{
+    borderRadius: 2,
+    borderWidth: 1,
+    // paddingVertical: 90,
+    paddingHorizontal: 16,
+    marginHorizontal: 15,
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    minHeight: 380,
+  },
   quote: {
     color: '#888', 
     fontSize: 24,
-    marginHorizontal: 15,
+    // marginHorizontal: 15,
     fontFamily: 'American Typewriter',
-    borderRadius: 2,
-    borderWidth: 1,
-    paddingVertical: 90,
-    paddingHorizontal: 16,
     lineHeight: 34,
-    height: 300,
-    width: 320,
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center'
+    // height: 300,
+    // width: 320,
     // marginTop: 170
   },
   button: {
