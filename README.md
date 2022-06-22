@@ -1,7 +1,11 @@
 # Mobile Quotes App
+
+## Student Details
+### 2021-01-00071
+### Abdallah, Rohit 
 This is a simple mobile app quotes created with Expo for React Native  
 
-Note: You can install the finished version of the app on your android device by installing the apk 
+**Note**: You can install the finished version of the app on your android device by installing the apk 
 
 
 
